@@ -4,3 +4,116 @@
   box-sizing: border-box;
 }
 
+/* header関連 */
+.header-top {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+}
+
+.top-text {
+  width: 100%;
+  text-align: center;
+}
+
+.nav-item {
+  width: 100%;
+  list-style: none;
+  padding: 15px 20px;
+  text-align: center;
+  border-top: solid 1px gray;
+  border-bottom: solid 1px gray;
+}
+
+/* 色分けブロック */
+main {
+  width: 800px;
+  height: 600px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.green1 {
+  width: 200px;
+  height: 200px;
+  background-color: #e6ffe9;
+}
+
+.green2 {
+  width: 200px;
+  height: 200px;
+  background-color: #cbffd3;
+}
+
+.green3 {
+  width: 200px;
+  height: 200px;
+  background-color: #aeffbd;
+}
+
+.green4 {
+  width: 200px;
+  height: 200px;
+  background-color: #93ffab;
+}
+.yellow1 {
+  width: 200px;
+  height: 200px;
+  background-color: #f3ffd8;
+}
+.yellow2 {
+  width: 200px;
+  height: 200px;
+  background-color: #edffbe;
+}
+.yellow3 {
+  width: 200px;
+  height: 200px;
+  background-color: #e9ffa5;
+}
+.yellow4 {
+  width: 200px;
+  height: 200px;
+  background-color: #e4ff8d;
+}
+
+.blue1 {
+  width: 200px;
+  height: 200px;
+  background-color: #d9e5ff;
+}
+.blue2 {
+  width: 200px;
+  height: 200px;
+  background-color: #bad3ff;
+}
+.blue3 {
+  width: 200px;
+  height: 200px;
+  background-color: #a4c6ff;
+}
+.blue4 {
+  width: 200px;
+  height: 200px;
+  background-color: #8eb8ff;
+}
+
+/* footer関連 */
+footer {
+  width: auto;
+  height: 120px;
+  background-color: gray;
+}
+
+.footer-text {
+  color: white;
+  line-height: 120px;
+  text-align: center;
+}
